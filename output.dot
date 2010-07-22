@@ -1,0 +1,11 @@
+/* this is a generated dot file: www.graphviz.org */
+diagraph suffixtree {
+	rankdir=LR;
+	1[label=", Text: 0, Suffix: 0"];
+		1->2[label="Hello, Text: 0, Suffix: 0"];
+			2->3[label="Rest Hello West $, Text: 1, Suffix: 0"];
+			2->4[label="West $, Text: 1, Suffix: 3"];
+		1->5[label="Rest Hello West $, Text: 1, Suffix: 1"];
+		1->6[label="West $, Text: 1, Suffix: 3"];
+		1->7[label="$, Text: 1, Suffix: 4"];
+}
